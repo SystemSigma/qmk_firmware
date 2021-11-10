@@ -1,0 +1,13 @@
+#rules
+
+# MOUSEKEY_ENABLE = yes # Mouse keys
+BOOTMAGIC_ENABLE = full
+# EXTRAKEY_ENABLE = yes # Audio control and System control
+TAP_DANCE_ENABLE = yes
+# RGB_MATRIX_FRAMEBUFFER_EFFECTS = yes
+RGB_MATRIX_ENABLE = yes
+AUTO_SHIFT_ENABLE = no
+RGB_MATRIX_CUSTOM_USER = yes
+AUTO_SHIFT_TIMEOUT = 250
+
+SRC += snake.c
