@@ -1,5 +1,5 @@
 // #include QMK_:KEYBOARD_H
-#include <keyboards/bm40hsrgb/bm40hsrgb.h>
+#include <keyboards/kprepublic/bm40hsrgb/bm40hsrgb.h>
 // #include "quantum.h"
 #include "snake.h"
 
@@ -142,10 +142,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		 KC_TRNS,     KC_TRNS,      KC_TRNS,   KC_TRNS,   KC_DEL,        KC_TRNS,         KC_TRNS,     KC_NO,     KC_TRNS,  KC_TRNS,    KC_TRNS),
 
 	[L_NUM] = LAYOUT_planck_mit
-		(KC_TILD,   KC_EXLM,      KC_AT,     KC_HASH,   KC_DLR,     KC_PERC,  KC_CIRC,  KC_AMPR,   KC_ASTR,    KC_LPRN,  KC_RPRN,  KC_PIPE,
-		 KC_GRV,    KC_1,         KC_2,      KC_3,      KC_4,       KC_5,     KC_6,     KC_7,      KC_8,       KC_9,     KC_0,      KC_BSLS,
-		 KC_NO,     KC_MINUS,     KC_LCBR,   KC_LBRC,   KC_LPRN,    KC_NO,    KC_NO,    KC_RPRN,   KC_RBRC,    KC_RCBR,  KC_PLUS,     KC_NO,
-		 KC_TRNS,   KC_TRNS,      KC_TRNS,   KC_NO,     KC_TRNS,         KC_TRNS,       KC_UNDS,   KC_TRNS,    KC_TRNS,  KC_TRNS,   KC_TRNS),
+		(KC_TILD,   KC_EXLM,      KC_AT,     KC_HASH,   KC_DLR,     KC_PERC,  KC_CIRC,  KC_AMPR,   KC_ASTR,    KC_LPRN,  KC_RPRN,  KC_TRNS,
+		 KC_GRV,    KC_1,         KC_2,      KC_3,      KC_4,       KC_5,     KC_6,     KC_7,      KC_8,       KC_9,     KC_0,     KC_PLUS,
+		 KC_NO,     KC_PIPE,     KC_LCBR,   KC_LBRC,   KC_LPRN,    KC_NO,    KC_NO,    KC_RPRN,   KC_RBRC,    KC_RCBR,   KC_BSLS,  KC_MINUS,
+		 KC_TRNS,   KC_TRNS,      KC_TRNS,   KC_NO,     KC_TRNS,         KC_TRNS,       KC_UNDS,   KC_TRNS,    KC_TRNS,  KC_TRNS,  KC_TRNS),
 
 	[L_RGB] = LAYOUT_planck_mit
 		(RESET,     KC_NO, 	  KC_NO,     KC_NO,     KC_NO,       KC_NO,    KC_NO,    KC_NO,     KC_ASUP,     RGB_HUI,     RGB_SAI,   RGB_VAI,
